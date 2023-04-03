@@ -1,0 +1,97 @@
+.carrusel {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.carruselItems {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.carruselItem {
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  margin: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.carruselItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carruselItem:hover {
+  transform: scale(1.2);
+}
+
+.arrowOne {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.313);
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+.arrowTwo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.186);
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 500;
+  transition: background-color 0.2s ease-in-out;
+  right: 0;
+}
+
+.arrow:hover {
+  background-color: black;
+}
+
+.arrowLeft {
+  left: 10px;
+  background-color: transparent;
+}
+
+.arrowRight {
+  right: 10px;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .carrusel {
+    height: auto;
+  }
+
+  .carruselItems {
+    padding: 20px 0px;
+  }
+
+  .carruselItem {
+    min-width: 200px;
+    max-width: 200px;
+    height: 150px;
+    margin-right: 10px;
+  }
+}

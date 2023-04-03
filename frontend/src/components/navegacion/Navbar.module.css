@@ -1,0 +1,105 @@
+.ContenedorHeader {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--white);
+  position: fixed;
+  z-index: 300;
+
+  transform: translate(-50%, -50%);
+  top: 35px;
+  left: 50%;
+}
+
+.ContenedorNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.ContenedorNavbar svg {
+  width: 24px;
+  height: 18px;
+  fill: #000;
+}
+
+.Titulo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.MenuItem {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 70px;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  height: 250px;
+  transition: all 1s ease;
+
+  overflow: hidden;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.MenuItem * {
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+}
+
+.MenuItem a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.MenuItem span {
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid var(--text-color);
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .ContenedorNavbar svg {
+    display: none;
+  }
+  .MenuItem {
+    display: flex !important;
+    height: auto !important;
+    width: min-content;
+    flex-direction: row;
+    position: unset;
+    height: auto;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ContenedorNavbar {
+    padding: 0 100px;
+  }
+}

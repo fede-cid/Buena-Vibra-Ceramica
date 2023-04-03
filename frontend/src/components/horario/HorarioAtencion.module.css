@@ -1,0 +1,78 @@
+.ContenedorHero {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 313px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('/recursos/horario.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ContenedorHero h2 {
+  padding: 0 20px;
+  color: var(--white);
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.ContenedorHorario {
+  width: 100%;
+  max-width: 700px;
+  padding: 0 20px;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+}
+
+.ContenedorHorario div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.ContenedorHorario div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .ContenedorHero h2 {
+    padding-left: 105px;
+  }
+  .ContenedorHorario {
+    padding-left: 105px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ContenedorHero {
+    min-height: 528px;
+  }
+  .ContenedorHero h2 {
+    padding-top: 89px;
+    padding-bottom: 60px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .ContenedorHorario div:nth-child(1) {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .ContenedorHorario div:nth-child(2) {
+    font-size: 24px;
+    line-height: 38px;
+  }
+}

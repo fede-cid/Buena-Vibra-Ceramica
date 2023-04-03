@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #47654D;
+  --secondary-color: #AFB18C;
+  --text-color: #1E1E1E;
+  --white-apoyo: #F6EBEB;
+  --white: #FFFFFF;
+  --accent-color: #314535;
+  --secondary-accent: #5C5E4A;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,*::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btnprimario, .btnsecundario, .btnicono {
+  display: inline-block;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  transition: all .5s ease;
+}
+
+.btnprimario:hover, .btnsecundario:hover, .btnicono:hover {
+  text-decoration: none;
+}
+
+.btnprimario {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btnsecundario {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btnicono {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.btnicono::after {
+  content: "";
+  width: 20px;
+  height: 17.5px;
+  background: url('/recursos/arrowright.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  fill: var(--text-color);
+}
+
+.btnprimario:hover {
+  background: var(--accent-color);
+}
+
+.btnsecundario:hover {
+  background: var(--secondary-accent);
+}
+
+.btnicono:hover {
+  background: var(--secondary-accent);
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-25 {
+  width: 25%;
+}
