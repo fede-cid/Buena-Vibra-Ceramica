@@ -74,6 +74,7 @@ const data = [
     tipo:'taza',
   },
 ];
+
 function App() {
   return (
     <ProductoState>
