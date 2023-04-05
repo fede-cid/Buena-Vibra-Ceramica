@@ -7,9 +7,9 @@ const ProductoState = (props) => {
   const initialState = {
     producto: {
       id: 1,
-      nombre: "Hamburguesa de Falafel al horno",
-      descripcion: "Hamburguesa de Falafel al horno Nuestras hamburguesas veganas de falafel son una gran alternativa saludable a las hamburguesas normales, ¡y son súper fáciles de hacer! Sólo tienes que cocerlas en el horno y cubrirlas con tus ingredientes favoritos.",
-      imagen: "/recursos/PLATO.jpg"
+      nombre: "Tu compañia cada mañana",
+      descripcion: "¡Despierta tus sentidos y disfruta del té en una obra de arte personalizada! Nuestros jarrones artesanales de cerámica son más que simples recipientes, son piezas únicas que reflejan tu estilo y personalidad. Cada sorbo es una experiencia única, con un jarro personalizado que demuestra que mereces lo mejor. Sumérgete en un mundo de sabor y creatividad con nuestros jarrones artesanales personalizados.",
+      imagen: "/src/recursos/jarrito.jpeg"
     }
   }
 

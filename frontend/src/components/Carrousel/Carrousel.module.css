@@ -1,5 +1,4 @@
 .carrusel {
-  height: 100vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -37,9 +36,9 @@
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: rgba(255, 255, 255, 0.313);
+  background-color: rgba(255, 255, 255, 0.463);
   height: 200px;
-
+border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,9 +52,9 @@
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: rgba(255, 255, 255, 0.186);
+  background-color: rgba(255, 255, 255, 0.460);
   height: 200px;
-
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,9 +63,13 @@
   transition: background-color 0.2s ease-in-out;
   right: 0;
 }
-
+.arrowTwo:hover, .arrowOne:hover{
+  background-color: rgba(0, 0, 0, 0.396);
+  color: white;
+}
 .arrow:hover {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.396);
+  color: white;
 }
 
 .arrowLeft {

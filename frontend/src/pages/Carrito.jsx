@@ -1,10 +1,12 @@
-const Carrito = () => {
-    return(
-        <div>
-            <h2> Aqui va el Carrito </h2>
-        </div>
-    )
-};
+import React from 'react'
+import Cart from '../components/Compras/Cart'
 
+function Carrito() {
+  return (
+    <div>
+      <Cart/>
+    </div>
+  )
+}
 
-export default Carrito; 
+export default Carrito

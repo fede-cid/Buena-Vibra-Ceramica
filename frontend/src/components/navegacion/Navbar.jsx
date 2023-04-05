@@ -17,7 +17,7 @@ const Navbar = () => {
   return(
     <header className={Estilo.ContenedorHeader}>
       <nav className={Estilo.ContenedorNavbar}>
-        <h1 className={Estilo.Titulo}>Tulia</h1>
+        <h1 className={Estilo.Titulo}>Buenas Vibras</h1>
         <div
           onClick={() => setMenu(!menu)}  
         >

@@ -38,7 +38,7 @@ a:hover {
 
 .btnprimario, .btnsecundario, .btnicono {
   display: inline-block;
-  padding: 20px;
+  padding: 13px;
   border: none;
   border-radius: 50px;
   font-family: 'Poppins', sans-serif;
@@ -68,7 +68,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 25px;
+
 }
 
 .btnicono::after {

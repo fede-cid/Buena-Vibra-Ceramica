@@ -1,7 +1,9 @@
-const Productos = () => {
+import ProductList from "../components/cards/Productos/ProductList";
+
+const Productos = ({data}) => {
     return(
         <div>
-            <h2> Aqui va productos </h2>
+            <ProductList data={data}/>
         </div>
     )
 };
