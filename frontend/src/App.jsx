@@ -42,7 +42,7 @@ const data = [
     tipo:'mate',
   },
   {
-    titulo: "mate",
+    titulo: "Mate",
     cantidad:0,
     id:4,
     precio: 2500,
@@ -50,7 +50,7 @@ const data = [
     tipo:'mate',
   },
   {
-    titulo: "taza",
+    titulo: "Taza",
     cantidad:0,
     id:5,
     precio: 2500,
@@ -66,7 +66,7 @@ const data = [
     tipo:'taza',
   },
   {
-    titulo: "Empanadas de Queso fritas",
+    titulo: "Posillos",
     cantidad:0,
     id:7,
     precio: 2500,
