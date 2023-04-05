@@ -22,7 +22,7 @@ const data = [
     cantidad:0,
     id:1,
     precio: 2500,
-    img: "../../../../src/recursos/jarrito.jpeg",
+    img: "https://github.com/fede-cid/Buena-Vibra-Ceramica/blob/main/frontend/src/recursos/jarrito.jpeg?raw=true",
     tipo:'jarro',
   },
   {
@@ -30,7 +30,7 @@ const data = [
     cantidad:0,
     id:2,
     precio: 2500,
-    img: "../../../../src/recursos/combo.jpeg",
+    img: "https://github.com/fede-cid/Buena-Vibra-Ceramica/blob/main/frontend/src/recursos/combo.jpeg?raw=true",
     tipo:'combo',
   },
   {
@@ -38,7 +38,7 @@ const data = [
     cantidad:0,
     id:3,
     precio: 2500,
-    img: "../../../../src/recursos/mate.jpeg",
+    img: "https://github.com/fede-cid/Buena-Vibra-Ceramica/blob/main/frontend/src/recursos/mate.jpeg?raw=true",
     tipo:'mate',
   },
   {
@@ -46,7 +46,7 @@ const data = [
     cantidad:0,
     id:4,
     precio: 2500,
-    img: "../../../../src/recursos/mate2.jpeg",
+    img: "https://github.com/fede-cid/Buena-Vibra-Ceramica/blob/main/frontend/src/recursos/mate2.jpeg?raw=true",
     tipo:'mate',
   },
   {
@@ -54,15 +54,15 @@ const data = [
     cantidad:0,
     id:5,
     precio: 2500,
-    img: "../../../../src/recursos/taza1.jpeg",
+    img: "https://github.com/fede-cid/Buena-Vibra-Ceramica/blob/main/frontend/src/recursos/taza1.jpeg?raw=true",
     tipo:'taza',
   },
   {
-    titulo: "Empanadas de Queso fritas",
+    titulo: "Taza",
     cantidad:0,
     id:6,
     precio: 2500,
-    img: "../../../../src/recursos/taza2.jpeg",
+    img: "https://raw.githubusercontent.com/fede-cid/Buena-Vibra-Ceramica/main/frontend/src/recursos/taza2.jpeg",
     tipo:'taza',
   },
   {
@@ -70,7 +70,7 @@ const data = [
     cantidad:0,
     id:7,
     precio: 2500,
-    img: "../../../../src/recursos/dobletaza.jpeg",
+    img: "https://github.com/fede-cid/Buena-Vibra-Ceramica/blob/main/frontend/src/recursos/dobletaza.jpeg?raw=true",
     tipo:'taza',
   },
 ];
