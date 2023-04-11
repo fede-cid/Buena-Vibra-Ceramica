@@ -67,7 +67,7 @@ const data = [
     tipo:'taza',
   },
   {
-    titulo: "Posillos",
+    titulo: "Pocillos",
     cantidad:0,
     id:7,
     precio: 2500,
