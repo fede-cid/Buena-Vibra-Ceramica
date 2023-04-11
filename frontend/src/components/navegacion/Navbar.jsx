@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Estilo from "./Navbar.module.css";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+
 
 const CART_ITEMS_LOCAL_STORAGE_KEY = "cartItems";
 
@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <header className={Estilo.ContenedorHeader}>
       <nav className={Estilo.ContenedorNavbar}>
-        <h1 className={Estilo.Titulo}>Buenas Vibras</h1>
+        <h1 className={Estilo.Titulo}>Buena Vibra</h1>
         <div onClick={() => setMenu(!menu)}>
           {menu ? <AiOutlineClose /> : <AiOutlineMenu />}
         </div>

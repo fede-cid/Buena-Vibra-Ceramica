@@ -72,12 +72,6 @@ const Cart = () => {
                     {item.cantidad} x {item.precio}
                   </div>
                   <div className={styles.cartItemActions}>
-                    <button
-                      className={styles.cartItemButton}
-                      onClick={() => handleDeleteItem(item.id)}
-                    >
-                      Delete
-                    </button>
                     <div className={styles.cartItemQuantity}>
                       <button
                         className={styles.cartItemButton}
@@ -88,8 +82,7 @@ const Cart = () => {
                       >
                         -
                       </button>
-                    </div>
-                    <div className={styles.cartItemQuantity}>
+
                       <button
                         className={styles.cartItemButton}
                         onClick={() =>
@@ -99,11 +92,17 @@ const Cart = () => {
                         +
                       </button>
                     </div>
+                    <button
+                      className='btnicono'
+                      onClick={() => handleDeleteItem(item.id)}
+                    >
+                      Delete
+                    </button>
                   </div>
                 </div>
               </div>
             ))}
-            <button className={styles.cartBuyButton} onClick={handleBuy}>
+            <button className='btnprimario' onClick={handleBuy}>
               Buy (${totalPrice})
             </button>
           </div>
