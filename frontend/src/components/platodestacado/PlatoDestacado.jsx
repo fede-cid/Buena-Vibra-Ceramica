@@ -15,7 +15,7 @@ const PlatoDestacado = () => {
     <div className={Estilo.Contenedor}>
       <div className={Estilo.ContenedorDestacado}>
         <h2 className={Estilo.EncabezadoPrincipal}>
-          Nuestro produncto destacado
+          Nuestro producto destacado
         </h2>
         <div className={Estilo.ContenedorDetalles}>
           <ContenedorImagen producto={producto}/>
