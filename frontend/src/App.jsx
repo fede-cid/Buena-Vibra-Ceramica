@@ -16,6 +16,7 @@ import Navbar from './components/navegacion/Navbar'
 
 // Context Producto
 import ProductoState from './context/producto/ProductoState'
+import Footer from './components/Footer/Footer'
 const data = [
   {
     titulo: "Jarrito",
@@ -86,6 +87,7 @@ function App() {
         <Route path='/carrito' element={ <Carrito/> } />
         <Route path='/checkout' element={ <Checkout/> } />
       </Routes>
+      <Footer/>
     </ProductoState>
   )
 }

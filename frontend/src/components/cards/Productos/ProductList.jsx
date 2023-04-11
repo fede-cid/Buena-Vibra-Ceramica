@@ -59,7 +59,7 @@ function ProductList({ data }) {
           <div>
             <button className='btnprimario'onClick={() => menos(product.id)}>−</button> {product.cantidad} <button className='btnprimario' onClick={() => mas(product.id)}>+</button>
           </div>
-          <button className='btnicono' onClick={() => addToCart(product)}>Agregar al carrito  <FaShoppingCart size={30} /></button>
+          <button className='btnicono' onClick={() => addToCart(product)} disabled={!product.cantidad}>Agregar al carrito  <FaShoppingCart size={30} /></button>
         </div>
       ))}
     </div>

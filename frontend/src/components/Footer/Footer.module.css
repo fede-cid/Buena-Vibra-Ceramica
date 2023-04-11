@@ -1,0 +1,22 @@
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(80, 55, 92);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: flex;
+  flex-direction: row;
+}
+
+a:hover {
+  color: #cd486b;
+}
