@@ -1,22 +1,25 @@
 import { useState, useEffect } from "react";
-
 import { NavLink } from "react-router-dom";
-
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-
 import { motion } from "framer-motion";
-
 import Estilo from "./Navbar.module.css";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+
+const CART_ITEMS_LOCAL_STORAGE_KEY = "cartItems";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [cartCount, setCartCount] = useState(0);
 
   useEffect(() => {
-    const items = JSON.parse(localStorage.getItem("cartItems"));
+    const items = JSON.parse(localStorage.getItem(CART_ITEMS_LOCAL_STORAGE_KEY));
     setCartCount(items ? items.length : 0);
   }, []);
-  const SVGMenu = () => (menu ? <AiOutlineClose /> : <AiOutlineMenu />);
+
+  useEffect(() => {
+    const items = JSON.parse(localStorage.getItem(CART_ITEMS_LOCAL_STORAGE_KEY));
+    setCartCount(items ? items.length : 0);
+  }, [localStorage.getItem(CART_ITEMS_LOCAL_STORAGE_KEY)]);
 
   return (
     <header className={Estilo.ContenedorHeader}>
@@ -54,9 +57,13 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/carrito" onClick={() => setMenu(!menu)}>
-              Carrito
+                carrito
+              {cartCount > 0 && (<>
+                <span>
+                  {cartCount}
+                </span></>
+              )}
             </NavLink>
-            <span>{cartCount}</span>{" "}
           </li>
         </motion.ul>
       </nav>
