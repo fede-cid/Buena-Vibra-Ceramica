@@ -55,7 +55,7 @@ const ContenedorInfo = ({producto}) => {
             border: '1px solid var(--text-color)'
           }}
           className={`btnicono`}
-          href=''>
+          href='/productos'>
           <span>Ver más</span>
           </a>
       </div>

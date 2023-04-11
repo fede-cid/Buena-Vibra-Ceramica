@@ -15,13 +15,13 @@ const HorarioAtencion = () => {
           <span>domingo</span>
         </div>
         <div>
-          <span>11am - 4pm</span>
+          <span>9am - 8pm</span>
+          <span>9am - 8pm</span>
+          <span>9am - 8pm</span>
+          <span>9am - 10pm</span>
+          <span>9am - 10pm</span>
+          <span>9am - 8pm</span>
           <span>no hay servicio</span>
-          <span>11am - 4pm</span>
-          <span>12am - 8pm</span>
-          <span>12am - 10pm</span>
-          <span>12am - 10pm</span>
-          <span>12am - 8pm</span>
         </div>
       </div>
     </div>
