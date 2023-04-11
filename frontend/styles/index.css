@@ -47,7 +47,7 @@ a:hover {
   font-size: 18px;
   line-height: 27px;
   transition: all .5s ease;
-  margin: 5 
+  margin: 5px;
 }
 
 .btnprimario:hover, .btnsecundario:hover, .btnicono:hover {
