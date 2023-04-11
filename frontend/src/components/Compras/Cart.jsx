@@ -44,7 +44,8 @@ const Cart = () => {
     const productList = items
       .map((item) => `${item.titulo} (${item.cantidad})`)
       .join("%0A");
-    const message = `Hola buenas, quería solicitarte estos productos: %0A${productList}`;
+      const imageUrl = items.img;
+      const message = `Hola buenos dias, quería solicitarte estos productos: %0A${productList} %0A${imageUrl}`;
     window.open(`https://wa.me/5491167879133?text=${message}`, "_blank");
   };
 
