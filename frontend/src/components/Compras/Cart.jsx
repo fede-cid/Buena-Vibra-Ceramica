@@ -50,6 +50,7 @@ const Cart = () => {
   };
 
   return (
+    <div className={styles.conteiner}>
     <div className={styles.cart}>
       <div className={styles.cartHeader}>
         <FaShoppingCart />
@@ -108,7 +109,7 @@ const Cart = () => {
           </div>
         </>
       )}
-    </div>
+    </div></div>
   );
 };
 
