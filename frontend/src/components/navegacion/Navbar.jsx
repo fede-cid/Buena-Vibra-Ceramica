@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/carrito" onClick={() => setMenu(!menu)}>
-                carrito
+                Carrito
               {cartCount > 0 && (<>
                 <span>
                   {cartCount}
